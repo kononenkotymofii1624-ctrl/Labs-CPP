@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1792484025 source:c:\users\bravo 6-1\documents\labs\labs\laba.c
+	<stdio.h>
+
+1740933562 source:c:\users\bravo 6-1\documents\labs\labs\main.cpp
+	<iostream>
+
+1792484193 source:c:\users\bravo 6-1\documents\labs\labs\laba.cpp
+	<iostream>
+
