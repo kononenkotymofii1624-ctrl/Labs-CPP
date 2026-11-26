@@ -1,0 +1,3 @@
+Login,PasswordHash,Role,FirstName,LastName,Age,IsStudent
+admin,1425368541,admin,Головний,Адміністратор,30,0
+aaa,1198001964,user,aaa,aaa,19,1
