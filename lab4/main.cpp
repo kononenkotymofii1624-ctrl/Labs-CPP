@@ -4,7 +4,7 @@
 #include <limits>
 #include <windows.h>
 
-const int MAX_FAILED_ATTEMPTS = 5;
+const int MAX_FAILED_ATTEMPTS = 15;
 
 void printWord(const std::vector<char>& word) {
     std::cout << "{ ";
@@ -22,10 +22,26 @@ int main() {
     SetConsoleCP(65001);
 
     const std::vector<std::vector<char>> WORDS = {
-        { 't', 'h', 'i' },
-        { 'i', 's' },
-        { 'a' },
-        { 'w', 'o', 'r', 'd' }
+        { 'c', 'o', 'd', 'e' },
+        { 'g', 'a', 'm', 'e' },
+        { 'b', 'y', 't', 'e' },
+        { 'l', 'o', 'o', 'p' },
+        { 'v', 'o', 'i', 'd' },
+        { 'c', 'h', 'a', 'r' },
+        { 'a', 'r', 'r', 'a', 'y' },
+        { 's', 't', 'a', 'c', 'k' },
+        { 'q', 'u', 'e', 'u', 'e' },
+        { 'l', 'o', 'g', 'i', 'c' },
+        { 'p', 'i', 'x', 'e', 'l' },
+        { 's', 'h', 'a', 'd', 'e', 'r' },
+        { 'v', 'e', 'c', 't', 'o', 'r' },
+        { 'm', 'a', 't', 'r', 'i', 'x' },
+        { 's', 't', 'r', 'i', 'n', 'g' },
+        { 'b', 'i', 'n', 'a', 'r', 'y' },
+        { 'r', 'a', 'n', 'd', 'o', 'm' },
+        { 'c', 'o', 'n', 's', 'o', 'l', 'e' },
+        { 'p', 'o', 'i', 'n', 't', 'e', 'r' },
+        { 'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r' }
     };
 
     // 1. Отримуємо апаратне випадкове зерно (seed) від ОС
@@ -98,3 +114,4 @@ int main() {
 
     return 0;
 }
+
