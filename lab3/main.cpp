@@ -24,7 +24,7 @@ struct User {
 
 const std::string FILENAME = "users.csv";
 
-// Функція хешування пароля з додаванням "солі"
+// Хешування пароля з додаванням "солі"
 std::string hashPassword(const std::string& password) {
     std::string salt = "S3cr3t_S@lt_2026";
     std::size_t hashed = std::hash<std::string>{}(password + salt);
